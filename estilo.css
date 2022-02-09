@@ -48,7 +48,17 @@ body {
     background: #017bab;
     border: none;
     margin-bottom: 16px;
+    cursor: pointer;
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
 }
+.buttons {
+    transition-duration: 0.4s;
+}
+
+.buttons:hover {
+    background-color: black; /* Green */
+    color: white;
+}  
 
 .form-login p{
     height: 40px;
