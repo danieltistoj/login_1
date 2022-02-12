@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/danieltistoj/login_1/issues"
   },
-  "homepage": "https://github.com/danieltistoj/login_1#readme"
+  "homepage": "https://github.com/danieltistoj/login_1#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "connect-flash": "^0.1.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
 }
